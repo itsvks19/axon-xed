@@ -4,7 +4,6 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.compose.compiler)
-    kotlin("plugin.serialization") version "2.1.21"
 }
 
 android {
@@ -86,7 +85,6 @@ dependencies {
 
     //implementation(kotlin("reflect"))
     compileOnly("org.jetbrains.kotlin:kotlin-reflect:2.0.10")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
 
 // compileOnly(libs.jcodings)
     // compileOnly(libs.joni)
